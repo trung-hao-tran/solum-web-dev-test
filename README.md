@@ -82,3 +82,40 @@ docker run -p 3000:3000 question-c
 - Responsive design (mobile & desktop)
 - Social login buttons (UI only)
 
+**Live Demo**: [View on GitHub Pages](https://trung-hao-tran.github.io/solum-web-dev-test/)
+
+---
+
+## 📦 GitHub Pages Deployment
+
+Question C is automatically deployed to GitHub Pages when changes are pushed to `main`.
+
+**Setup** (already configured):
+1. GitHub Actions workflow builds and deploys on push
+2. App is available at: https://trung-hao-tran.github.io/solum-web-dev-test/
+
+**Manual build for GitHub Pages**:
+```bash
+cd question-c
+GITHUB_PAGES=true npm run build
+# Static files output to 'out' directory
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Question | Language/Framework | Complexity |
+|----------|-------------------|------------|
+| A | Python 3.x | O(1) time, O(1) space |
+| B | Python 3.x | O(1) time, O(1) space |
+| C | Next.js 15 + TypeScript | Tailwind CSS, Framer Motion |
+
+---
+
+## 📝 Notes
+
+- **Question A & B**: Standalone Python scripts, no external dependencies
+- **Question C**: Frontend-only, no backend (credentials stored in-memory)
+- All solutions are production-ready with clean, commented code
+
