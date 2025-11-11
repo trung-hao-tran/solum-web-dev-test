@@ -39,7 +39,7 @@ python solution.py < test_input.txt
 
 ### Question C: Login Page (Next.js)
 
-**Requirements**: Node.js 18+ or Docker
+**Requirements**: Node.js 20+ or Docker
 
 #### Option 1: Run with npm
 
